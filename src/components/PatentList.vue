@@ -20,12 +20,12 @@
     </div>
 
     <ul class="ui-list ui-list-single ui-list-link ui-border-tb">
-      <li class="ui-border-t" v-for="patent in patents">
+      <router-link tag="li" :to="{name: 'detail', params: {id: patent.PATENT_ID}}" class="ui-border-t" v-for="patent in patents">
         <div class="ui-list-info">
           <h4 class="ui-nowrap">{{patent.TITLE}}</h4>
           <div class="ui-txt-info">$1000</div>
         </div>
-      </li>
+      </router-link>
     </ul>
   </div>
 </template>
