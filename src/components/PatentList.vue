@@ -1,8 +1,13 @@
 <template>
   <div>
-    <div v-for="patent in patents">
-      {{patent.TITLE}}
-    </div>
+    <ul class="ui-list ui-list-single ui-list-link ui-border-tb">
+      <li class="ui-border-t" v-for="patent in patents">
+        <div class="ui-list-info">
+          <h4 class="ui-nowrap">{{patent.TITLE}}</h4>
+          <div class="ui-txt-info">$1000</div>
+        </div>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -22,18 +27,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>
