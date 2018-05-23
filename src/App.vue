@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <p>小猪</p>
     <router-view/>
     <footer class="ui-footer ui-footer-btn">
       <ul class="ui-tiled ui-border-t">
@@ -21,5 +20,7 @@ export default {
 </script>
 
 <style>
-
+body{
+  background:#fff;
+}
 </style>
