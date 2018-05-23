@@ -1,72 +1,55 @@
 <template>
   
-<div class="pig_container">
-	<!-- 尾巴 -->
+<div class="pig_container" :class="[showAnimate ? 'peppa_show' : '', endAnimate ? 'peppa_end' : '']">
 	<div class="tail_left"></div>
 	<div class="tail_right"></div>
 	<div class="tail_blank"></div>
 	<div class="tail_middle"></div>
 	<div class="tail_circle"></div>
-	<!-- 底部阴影 -->
 	<div class="pig_shadow"></div>
-	<!-- 左脚 -->
 	<div class="left_foot"></div>
 	<div class="left_foot right_foot"></div>
-	<!-- 左鞋 -->
 	<div class="left_shoes"></div>
 	<div class="left_shoes right_shoes"></div>
-	<!-- 左手 -->
 	<div>
 		<div class="hand_left_top"></div>
 		<div class="hand_left_bottom"></div>
 		<div class="hand_left_middle"></div>
 	</div>
-	<!-- 身体 -->
 	<div class="pig_body_bottom"></div>
-	<!-- 右手 -->
 	<div>
 		<div class="hand_right_top"></div>
 		<div class="hand_right_bottom"></div>
 		<div class="hand_right_middle"></div>
 	</div>
-
-    <!-- 猪头 -->
 	<div>
-		<!-- 耳朵 -->
 		<div class="ear_left"></div>
 		<div class="ear_right"></div>
 		<div class="pig_head">
 			<div class="pig_head_white_left_bottom"></div>
         </div>
 			<div class="pig_head_white_left_top"></div>
-		<!-- 鼻子 -->
 		<div class="pig_nose"></div>
-		<!-- 下巴 -->
 		<div class="pig_jaw"></div>
 		<div class="pig_jaw_right"></div>
 		<div class="pig_nose_bottom"></div>
-		<!-- 鼻孔 -->
 		<div class="nose_kong_left"></div>
 		<div class="nose_kong_right"></div>
-		<!-- 左眼 -->
 		<div class="left_eye">
 			<div class="left_eye_bg"></div>
 			<div class="left_eye_ball"></div>
 			<div class="left_eye_border"></div>
 		</div>
-		<!-- 右眼 -->
 		<div class="right_eye">
 			<div class="right_eye_bg"></div>
 			<div class="right_eye_ball"></div>
 			<div class="right_eye_border"></div>
 		</div>
-		<!-- 嘴巴 -->
 		<div class="mouth">
 			<div class="mouth_bottom"></div>
 			<div class="mouth_middle"></div>
 			<div class="mouth_top"></div>
 		</div>
-		<!-- 脸颊 -->
 		<div class="face"></div>
 	</div>
 </div>
@@ -77,8 +60,19 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      showAnimate: false,
+      endAnimate: false
     }
+  },
+  created () {
+    setTimeout(()=>{
+      this.showAnimate = true;
+      setTimeout(()=>{
+        this.showAnimate = false;
+        this.endAnimate = true;
+      },5100)
+    },300)
   }
 }
 </script>
@@ -86,15 +80,19 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .pig_container{
-  width: 800px;
-	height: 800px;
-	top: 0;
-	left: 50px;
-
-  div{
+    width: 100%;
+    height: 100%;
+    top: -68px;
+    left: -38px;
+    /* overflow: hidden; */
     position: absolute;
-		transform-origin: left top;
-  }
+    opacity:0;
+
+}
+.pig_container div{
+  position: absolute;
+  transform-origin: left top;
+}
 
   .pig_head {
     width: 300px;
@@ -516,7 +514,38 @@ export default {
       transform: rotate(-40deg);
   }
 
+@keyframes mymove
+{
+0% {opacity: 0;}
+20% {opacity: 0.2;}
+50% {opacity: 1;}
+80% {opacity: 0.2;}
+100% {opacity: 1;}
+}
 
+@-moz-keyframes mymove /* Firefox */
+{
+0% {opacity: 0;}
+20% {opacity: 0.3;}
+50% {opacity: 1;}
+80% {opacity: 0.3;}
+100% {opacity: 1;}
+}
 
+@-webkit-keyframes mymove /* Safari 和 Chrome */
+{
+0% {opacity: 0;}
+20% {opacity: 0.3;}
+50% {opacity: 1;}
+80% {opacity: 0.3;}
+100% {opacity: 1;}
+}
+
+.peppa_show {
+animation:mymove 5s 1;
+-webkit-animation:mymove 5s 1; /* Safari 和 Chrome */
+}
+.peppa_end{
+  opacity:1;
 }
 </style>
