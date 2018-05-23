@@ -1,17 +1,25 @@
 <template>
   <div>
-    detail
+    {{ patent.PN }}
+    {{ patent.TITLE }}
   </div>
 </template>
 
 <script>
+import _ from 'lodash'
 import data from '../api/patents.json'
 
 export default {
-  name: 'HelloWorld',
+  name: 'Detail',
   data () {
     return {
+      patents: data.data.patentData,
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  computed: {
+    patent() {
+      return _.find(this.patents, {PATENT_ID: this.$route.params.id});
     }
   }
 }
