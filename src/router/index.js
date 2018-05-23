@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import PatentList from '@/components/PatentList'
 import User from '@/components/User'
-
+import Detail from '@/components/Detail'
 Vue.use(Router)
 
 export default new Router({
@@ -20,6 +20,10 @@ export default new Router({
       path: '/my',
       name: 'user',
       component: User
+    }, {
+      path: '/detail/:id',
+      name: 'detail',
+      component: Detail
     }
   ]
 })
