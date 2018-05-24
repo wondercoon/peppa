@@ -15,6 +15,10 @@ export default new Router({
       name: 'index',
       component: Peppa
     }, {
+      path: '/market',
+      name: 'market',
+      component: PatentList
+    }, {
       path: '/patents',
       name: 'patentList',
       component: PatentList

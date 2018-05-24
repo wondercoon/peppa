@@ -1,6 +1,6 @@
 <template>
   
-<div class="pig_container" :class="[showAnimate ? 'peppa_show' : '', endAnimate ? 'peppa_end' : '']">
+<div @click="enter" class="pig_container" :class="[showAnimate ? 'peppa_show' : '', endAnimate ? 'peppa_end' : '']">
 	<div class="tail_left"></div>
 	<div class="tail_right"></div>
 	<div class="tail_blank"></div>
@@ -73,6 +73,11 @@ export default {
         this.endAnimate = true;
       },5100)
     },300)
+  },
+  methods: {
+    enter() {
+      this.$router.replace({name: 'patents'});
+    }
   }
 }
 </script>
