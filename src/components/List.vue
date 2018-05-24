@@ -1,9 +1,12 @@
 <template>
-    <ul class="ui-list ui-list-single ui-list-link ui-border-tb">
+    <ul class="ui-list ui-list-link ui-border-tb">
       <router-link tag="li" :to="{name: 'detail', params: {id: patent.PATENT_ID}}" class="ui-border-t" v-for="patent in items">
+        <div class="ui-avatar">
+            <span style="background-image:url(http://placeholder.qiniudn.com/100x100)"></span>
+        </div>
         <div class="ui-list-info">
-          <h4 class="ui-nowrap" v-html="hl(patent.TITLE, keyword)"></h4>
-          <div class="ui-txt-info">{{patent.price}}</div>
+            <h4 class="ui-nowrap">{{patent.PN}}</h4>
+            <p class="ui-nowrap" v-html="hl(patent.TITLE, keyword)"></p>
         </div>
       </router-link>
     </ul>
