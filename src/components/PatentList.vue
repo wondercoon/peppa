@@ -1,10 +1,11 @@
 <template>
   <div>
     <div  class="ui-searchbar-wrap ui-border-b">
-      <div class="ui-searchbar ui-border-radius">
+      <div @click="searchMode = !searchMode" class="ui-searchbar ui-border-radius">
         <i class="ui-icon-search"></i>
-        <div class="ui-searchbar-text">搜索</div>
-        <div class="ui-searchbar-input"><input value="" type="text" placeholder="搜索" autocapitalize="off"></div>
+        <div :style="{display: !searchMode ? 'block' : 'none'}" class="ui-searchbar-text">搜索</div>
+        <div @click.stop :style="{display: searchMode ? 'block' : 'none'}" class="ui-searchbar-input">
+          <input @keypress.enter="search" v-model="keyword" type="text" placeholder="搜索" autocapitalize="off"></div>
         <i class="ui-icon-close"></i>
       </div>
       <button class="ui-searchbar-cancel">取消</button>
@@ -18,11 +19,10 @@
       </ul>
       <ul class="ui-slider-indicators"><li class="current">1</li><li class="">2</li><li class="">3</li></ul>
     </div>
-
     <ul class="ui-list ui-list-single ui-list-link ui-border-tb">
-      <router-link tag="li" :to="{name: 'detail', params: {id: patent.PATENT_ID}}" class="ui-border-t" v-for="patent in patents">
+      <router-link tag="li" :to="{name: 'detail', params: {id: patent.PATENT_ID}}" class="ui-border-t" v-for="patent in refinedList">
         <div class="ui-list-info">
-          <h4 class="ui-nowrap">{{patent.TITLE}}</h4>
+          <h4 class="ui-nowrap" v-html="hl(patent.TITLE, hlword)"></h4>
           <div class="ui-txt-info">$1000</div>
         </div>
       </router-link>
@@ -31,14 +31,30 @@
 </template>
 
 <script>
+import _ from 'lodash'
 import data from '../api/patents.json'
 
 export default {
   name: 'HelloWorld',
   data () {
     return {
+      keyword: '',
+      hlword: '',
+      searchMode: false,
       patents: data.data.patentData,
+      refinedList: data.data.patentData,
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods: {
+    search() {
+      this.hlword = this.keyword
+      this.refinedList = _.filter(this.patents, (patent) => {
+        return _.includes(patent.TITLE, this.keyword)
+      });
+    },
+    hl(val, keyword) {
+      return val.replace(keyword, `<span style="color: #17c24f">${keyword}</span>`);
     }
   }
 }
