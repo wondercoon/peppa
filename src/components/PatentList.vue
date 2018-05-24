@@ -13,29 +13,24 @@
 
     <div class="ui-slider">
       <ul class="ui-slider-content" style="width: 300%; transition-property: transform; transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
-        <li class="current"><span style="background-image:url(http://placeholder.qiniudn.com/640x200)"></span></li>
+        <li class="current"><img src="../assets/ad1.png"></li>
         <li class=""><span style="background-image:url(http://placeholder.qiniudn.com/640x200)"></span></li>
         <li class=""><span style="background-image:url(http://placeholder.qiniudn.com/640x200)"></span></li>
       </ul>
       <ul class="ui-slider-indicators"><li class="current">1</li><li class="">2</li><li class="">3</li></ul>
     </div>
-    <ul class="ui-list ui-list-single ui-list-link ui-border-tb">
-      <router-link tag="li" :to="{name: 'detail', params: {id: patent.PATENT_ID}}" class="ui-border-t" v-for="patent in refinedList">
-        <div class="ui-list-info">
-          <h4 class="ui-nowrap" v-html="hl(patent.TITLE, hlword)"></h4>
-          <div class="ui-txt-info">$1000</div>
-        </div>
-      </router-link>
-    </ul>
+    <list :items="refinedList" :keyword="hlword"></list>
   </div>
 </template>
 
 <script>
 import _ from 'lodash'
 import data from '../api/patents.json'
+import List from './List'
 
 export default {
   name: 'HelloWorld',
+  components: {List},
   data () {
     return {
       keyword: '',
@@ -52,9 +47,6 @@ export default {
       this.refinedList = _.filter(this.patents, (patent) => {
         return _.includes(patent.TITLE, this.keyword)
       });
-    },
-    hl(val, keyword) {
-      return val.replace(keyword, `<span style="color: #17c24f">${keyword}</span>`);
     }
   }
 }

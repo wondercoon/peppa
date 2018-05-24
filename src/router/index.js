@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import PatentList from '@/components/PatentList'
 import Peppa from '@/components/Peppa'
 import User from '@/components/User'
+import MyPatents from '@/components/MyPatents'
 import Wallet from '@/components/Wallet'
 import Detail from '@/components/Detail'
 Vue.use(Router)
@@ -26,6 +27,10 @@ export default new Router({
       path: '/my',
       name: 'user',
       component: User
+    }, {
+      path: '/my/patents',
+      name: 'myPatents',
+      component: MyPatents
     }, {
       path: '/wallet',
       name: 'wallet',

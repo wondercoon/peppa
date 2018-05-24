@@ -5,15 +5,15 @@
           <div class="ui-avatar">
               <span style="background-image:url(http://placeholder.qiniudn.com/100x100)"></span>
           </div>
-          <h4 class="ui-nowrap">我的专利</h4>
+          <h4 class="ui-nowrap">xxx</h4>
           <h5 class="ui-nowrap">wangmenghuan@patsnap.com</h5>
           
       </li>
-      <li class="ui-border-t">
+      <router-link tag="li" :to="{name: 'myPatents'}" class="ui-border-t">
           <div class="ui-list-info">
               <h4 class="ui-nowrap">我的专利</h4>
           </div>
-      </li>
+      </router-link>
       <li class="ui-border-t">
           <div class="ui-list-info">
               <h4 class="ui-nowrap">我的关注</h4>

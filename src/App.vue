@@ -25,6 +25,7 @@ const titles = {
   market: '市场',
   patentList: '',
   user: '个人中心',
+  myPatents: '我的专利',
   wallet: '钱包',
   detail: ''
 }

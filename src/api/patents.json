@@ -22,7 +22,7 @@
     },
     "keywords" : [ "自动驾驶" ],
     "patentData" : [ {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/61/33/67/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=4f962eb6dc96ced359082548667d514e273e23ae332f484ce2975c1bec606a67",
       "AN_ST" : [ "OSTERHOUT GROUP" ],
       "INPADOC_FAMILY_COUNT" : 309,
@@ -49,7 +49,7 @@
       "PN" : "CN106133674A",
       "APN" : "CN201580014481.4"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/21/12/94/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=5b9b01c848389909faf1b800de0824d93a30ee3cd2a47d5e20bb732f13eab349",
       "AN_ST" : [ "奥布隆工业" ],
       "INPADOC_FAMILY_COUNT" : 222,
@@ -76,7 +76,7 @@
       "PN" : "CN102112945B",
       "APN" : "CN200980130788.5"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/14/44/74/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=e48d4207c6566f625a10e8706d81df3a6d122e9b1745a863e65b9cf8cd62aa70",
       "AN_ST" : [ "梅耶亚隆", "德克霍维克扎克" ],
       "INPADOC_FAMILY_COUNT" : 213,
@@ -103,7 +103,7 @@
       "PN" : "CN1444742A",
       "APN" : "CN01813512.9"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/U/20/70/15/28/9/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=d06d616268ccb038c669d5d25155a8be8267d73a758ec73f9f7f8b293d2966f5",
       "AN_ST" : [ "沈玮" ],
       "INPADOC_FAMILY_COUNT" : 182,
@@ -130,7 +130,7 @@
       "PN" : "CN207015289U",
       "APN" : "CN201621295142.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/73/51/82/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=7bd226d2aa14129e4e870e58eba03175774054473021d9d98a0d3956c0a67f07",
       "AN_ST" : [ "JAGUAR LAND ROVER" ],
       "INPADOC_FAMILY_COUNT" : 176,
@@ -157,7 +157,7 @@
       "PN" : "CN107351825A",
       "APN" : "CN201710418018.7"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/19/45/77/6/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=2d2aa657f5b3439eea8cffb3a001c8fe5a35df20052e347e014d86b3125b9ec1",
       "AN_ST" : [ "阿尤纳因德拉斯瓦兰拉贾辛加姆" ],
       "INPADOC_FAMILY_COUNT" : 171,
@@ -184,7 +184,7 @@
       "PN" : "CN101945776B",
       "APN" : "CN200980105162.9"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://page120.cdn.zhihuiya.com/CN/A/10/40/80/82/5/00000001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=dd2a325e5a8d7fb44096a6253f66a692690aaa50581c2e799eda4bb0377c5abc",
       "AN_ST" : [ "EXXONMOBIL CHEMICAL", "CHEVRON ORONITE" ],
       "INPADOC_FAMILY_COUNT" : 133,
@@ -211,7 +211,7 @@
       "PN" : "CN104080825A",
       "APN" : "CN201280068817.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/41/06/04/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=c3c76499834e84228347c5503a0cdbe9c102fa533b33df5fb9eecbc4e1df4280",
       "AN_ST" : [ "JOHN DEERE" ],
       "INPADOC_FAMILY_COUNT" : 98,
@@ -238,7 +238,7 @@
       "PN" : "CN104106042B",
       "APN" : "CN201380008663.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/31/18/93/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=07e2faf54e023c0d5147c545af1bf898a44c851fc3de2054c93e2a19bdda6179",
       "AN_ST" : [ "LTA" ],
       "INPADOC_FAMILY_COUNT" : 97,
@@ -265,7 +265,7 @@
       "PN" : "CN103118938B",
       "APN" : "CN201180045162.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/70/28/58/9/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=f22058c4b4bf3f4f94c5db364a432af803d96b8b64959c69c8425d2a093e0d1d",
       "AN_ST" : [ "HONDA" ],
       "INPADOC_FAMILY_COUNT" : 85,
@@ -292,7 +292,7 @@
       "PN" : "CN107028589A",
       "APN" : "CN201611001638.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/76/55/36/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=dced92a9d8df2c3fa777d151467d075fdd27e995378a847eb16e627c1b59e920",
       "AN_ST" : [ "威罗门飞行" ],
       "INPADOC_FAMILY_COUNT" : 79,
@@ -319,7 +319,7 @@
       "PN" : "CN107655362A",
       "APN" : "CN201710881348.X"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/14/20/82/9/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=ccdedc2ba6d15ae515715d18c18548d302f136bbfbd0222aca84f87fb1ebebdb",
       "AN_ST" : [ "威罗门飞行" ],
       "INPADOC_FAMILY_COUNT" : 70,
@@ -346,7 +346,7 @@
       "PN" : "CN1420829A",
       "APN" : "CN01807473.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/52/29/33/9/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=124503284744830ce11e911a31b900e813013a060eec889beb7a204b624d4961",
       "AN_ST" : [ "TOROTRAK DEVMENT" ],
       "INPADOC_FAMILY_COUNT" : 70,
@@ -373,7 +373,7 @@
       "PN" : "CN105229339A",
       "APN" : "CN201480008740.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/19/44/17/6/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=7d18ce03fd8d9b5668970a6ccd47317e37fa73a2fc1e0807346326b4ad974c91",
       "AN_ST" : [ "GM GLOBAL TECHNOLOGY OPERATIONS" ],
       "INPADOC_FAMILY_COUNT" : 60,
@@ -400,7 +400,7 @@
       "PN" : "CN101944176A",
       "APN" : "CN200911000058.1"
     }, {
-      "FAMILY_COUNTRY" : "",
+      "price": 10, "FAMILY_COUNTRY" : "",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/47/04/42/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=9c4fdb24164782768e1d32feb08fcf18bd11b742fcf7ec44bd84ad70126ae943",
       "AN_ST" : [ "视觉智能有限合伙" ],
       "INPADOC_FAMILY_COUNT" : 6,
@@ -427,7 +427,7 @@
       "PN" : "CN104704424B",
       "APN" : "CN201380053255.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/35/78/29/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=0cc93f3a475b497fcb4a6f4aaffeab9ccee233c74c7b7f3286eacc5a5c855ccf",
       "AN_ST" : [ "GM GLOBAL TECHNOLOGY OPERATIONS" ],
       "INPADOC_FAMILY_COUNT" : 58,
@@ -454,7 +454,7 @@
       "PN" : "CN103578293B",
       "APN" : "CN201310343666.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/16/77/77/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=ace15f63eef1e0c71889b9351cf34008e126133a452bb8095ee2fc40b0a3ecb4",
       "AN_ST" : [ "NEUROSKY" ],
       "INPADOC_FAMILY_COUNT" : 55,
@@ -481,7 +481,7 @@
       "PN" : "CN101677774B",
       "APN" : "CN200780052261.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/33/70/24/9/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=8a77dfb8a6e4ef6a87ddb9c7bbd578f4485ed01abbd48fba04dc403e22ff286f",
       "AN_ST" : [ "GOOGLE" ],
       "INPADOC_FAMILY_COUNT" : 52,
@@ -508,7 +508,7 @@
       "PN" : "CN103370249B",
       "APN" : "CN201180057942.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/15/36/25/7/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=523d363a908960e1049cee8525d9134fe235116922b6b2985420b2ecb6ad4c82",
       "AN_ST" : [ "FEDERAL-MOGUL" ],
       "INPADOC_FAMILY_COUNT" : 50,
@@ -535,7 +535,7 @@
       "PN" : "CN101536257B",
       "APN" : "CN200780038193.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/15/05/32/1/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=5ef2d2be8a762ff80990d4a2bab7b233e5b6ed785d46a9af0b689b5eac97f8b9",
       "AN_ST" : [ "MICROSOFT" ],
       "INPADOC_FAMILY_COUNT" : 50,
@@ -562,7 +562,7 @@
       "PN" : "CN101505321A",
       "APN" : "CN200910126410.X"
     }, {
-      "FAMILY_COUNTRY" : "",
+      "price": 10, "FAMILY_COUNTRY" : "",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/TW/B/42/93/07/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=f869a22e18106f785b1ed2b2dd85a42ee0e8dfe630fab025a5d0bfca091fb798",
       "AN_ST" : [ "MAGNA LASTIC DEVICES" ],
       "INPADOC_FAMILY_COUNT" : 50,
@@ -589,7 +589,7 @@
       "PN" : "TW429307B",
       "APN" : "TW087118030"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/52/47/59/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=f8b7394140321c0905769455597789c898cad70ab987d689005c7b114b8b5549",
       "AN_ST" : [ "CAE INC." ],
       "INPADOC_FAMILY_COUNT" : 46,
@@ -616,7 +616,7 @@
       "PN" : "CN105247594B",
       "APN" : "CN201480003217.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/16/42/84/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=a6a7bfc073f2601cd0eb56e9e6425a371eb6bfea4277f150b692ffcc76c5d311",
       "AN_ST" : [ "TYNECAT TECH" ],
       "INPADOC_FAMILY_COUNT" : 43,
@@ -643,7 +643,7 @@
       "PN" : "CN1642844A",
       "APN" : "CN03806311.5"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/66/62/80/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=f06747b8ef0c68450838006fefc39fd8bce30f9ef4e2a968c32e487b661ff065",
       "AN_ST" : [ "近地图澳大利亚控股" ],
       "INPADOC_FAMILY_COUNT" : 40,
@@ -670,7 +670,7 @@
       "PN" : "CN106662804A",
       "APN" : "CN201580037491.X"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/14/40/59/9/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=809e1e81e1bdaba81ead8568894cc5f500559264a5e5eceaa8eaac456beb2cdb",
       "AN_ST" : [ "威罗门飞行" ],
       "INPADOC_FAMILY_COUNT" : 40,
@@ -697,7 +697,7 @@
       "PN" : "CN1440599A",
       "APN" : "CN01807825.7"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/10/03/98/06/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=e69476848d30bd9da907fa1a4521c997b96136b0ad3bf34f065eb05a39c1f7ab",
       "AN_ST" : [ "VOLVO TECH" ],
       "INPADOC_FAMILY_COUNT" : 39,
@@ -724,7 +724,7 @@
       "PN" : "CN100398065C",
       "APN" : "CN200380101560.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/68/86/42/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=8be06d4d15583c8fff6251308c40399dedce0ec55cd27062d23485d5479f09b2",
       "AN_ST" : [ "BOEING" ],
       "INPADOC_FAMILY_COUNT" : 39,
@@ -751,7 +751,7 @@
       "PN" : "CN106886423A",
       "APN" : "CN201710231773.4"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/77/09/12/7/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=fb90923d6450f9bb1403287bb2ad951455d449c88e2beb41926d535691b40c53",
       "AN_ST" : [ "PANASONIC" ],
       "INPADOC_FAMILY_COUNT" : 38,
@@ -778,7 +778,7 @@
       "PN" : "CN107709127A",
       "APN" : "CN201680034900.5"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/10/05/75/18/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=cc3113555809de4666e0140a2236f875b076e5a02123ac5404272e1f28823383",
       "AN_ST" : [ "天帆两合" ],
       "INPADOC_FAMILY_COUNT" : 38,
@@ -805,7 +805,7 @@
       "PN" : "CN100575188C",
       "APN" : "CN200580020232.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/22/39/32/1/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=a6c9693139de9f423891e4d3de12bcf8e8206edd3971bba76304b8e334d5c389",
       "AN_ST" : [ "发明科学基金I有限责任" ],
       "INPADOC_FAMILY_COUNT" : 38,
@@ -832,7 +832,7 @@
       "PN" : "CN102239321B",
       "APN" : "CN200980148887.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/79/92/03/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=a0ddf600a9f738af6eb3cbade9fcad68e60e96f4a85fae941d3dbb4560ae3c0c",
       "AN_ST" : [ "MERLIN TECH" ],
       "INPADOC_FAMILY_COUNT" : 37,
@@ -859,7 +859,7 @@
       "PN" : "CN107992033A",
       "APN" : "CN201711202221.7"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/71/11/94/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=24323f38408817bea9f3daed9c7aa3b08e6c66a901610a95e447fdb7a51a3547",
       "AN_ST" : [ "大陆智能交通系统有限责任公司" ],
       "INPADOC_FAMILY_COUNT" : 37,
@@ -886,7 +886,7 @@
       "PN" : "CN107111948A",
       "APN" : "CN201580053610.0"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/70/97/78/0/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=b43d04ae96c0c29e5758bdad260460c64fcb472f2580e30e90da442425483429",
       "AN_ST" : [ "伟摩有限责任公司" ],
       "INPADOC_FAMILY_COUNT" : 36,
@@ -913,7 +913,7 @@
       "PN" : "CN107097780A",
       "APN" : "CN201610839706.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/12/26/63/6/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=e6b9e2994858ae304034ccef7f703562f88a9226c3dfafe95cf536c6ca8c3cf0",
       "AN_ST" : [ "赫尼威尔" ],
       "INPADOC_FAMILY_COUNT" : 36,
@@ -940,7 +940,7 @@
       "PN" : "CN1226636C",
       "APN" : "CN99815232.3"
     }, {
-      "FAMILY_COUNTRY" : "",
+      "price": 10, "FAMILY_COUNTRY" : "",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/HK/A/12/02/84/6/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=5c55d1d8b26d2de7e07c11508787149d70f084f0c3ce927bce6c4730316c60bf",
       "AN_ST" : [ "MERLIN TECH" ],
       "INPADOC_FAMILY_COUNT" : 1,
@@ -966,7 +966,7 @@
       "PN" : "HK1202846A",
       "APN" : "HK15103393"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/24/39/29/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=152d615ea3ae4e98cbe597ca45b5d2dd2d49bfe5b62f1d36fd869ff5244cbe43",
       "AN_ST" : [ "G卡尔弗利" ],
       "INPADOC_FAMILY_COUNT" : 36,
@@ -993,7 +993,7 @@
       "PN" : "CN102439298B",
       "APN" : "CN201080013491.3"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/45/20/88/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=d256d2b58f7e87e40a38bee1f0fa29fd91e5b11e2029a1f5f7432930e2817e53",
       "AN_ST" : [ "AQUTO" ],
       "INPADOC_FAMILY_COUNT" : 36,
@@ -1020,7 +1020,7 @@
       "PN" : "CN104520888A",
       "APN" : "CN201380038165.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/12/91/87/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=9837ecf100fe934351268df037f288088f34eb1b2fa851048a8a94e0833dbd12",
       "AN_ST" : [ "YANG NANZHENG" ],
       "INPADOC_FAMILY_COUNT" : 34,
@@ -1047,7 +1047,7 @@
       "PN" : "CN1291874C",
       "APN" : "CN200510056657.0"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/59/23/31/0/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=a2cf47d9f143aefa62aa28f88a1eed6d1fedbe8810ab63428ed16f5fb49bbcac",
       "AN_ST" : [ "西姆伯蒂克有限责任" ],
       "INPADOC_FAMILY_COUNT" : 34,
@@ -1074,7 +1074,7 @@
       "PN" : "CN105923310A",
       "APN" : "CN201610391679.0"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/13/00/42/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=2ff69844b7c41b5e9d64612ba26e826c444e35f7222ad02e6956b90b8bced77f",
       "AN_ST" : [ "罗伯特克莱斯勒布伦南 SDI科技信托理事" ],
       "INPADOC_FAMILY_COUNT" : 34,
@@ -1101,7 +1101,7 @@
       "PN" : "CN101300423A",
       "APN" : "CN200680041081.3"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/10/48/29/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=cd8160cf8c7c5107931ed0c7a345515b3b6bd5262049b53aaea575874082eb47",
       "AN_ST" : [ "BROOKS AUTOMATION" ],
       "INPADOC_FAMILY_COUNT" : 30,
@@ -1128,7 +1128,7 @@
       "PN" : "CN101048292A",
       "APN" : "CN200580036470.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/13/84/81/7/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=4666ca8b54102d891102d82a8558c1566173656d0151afd2051b0b8890f399f4",
       "AN_ST" : [ "WOBBEN ALOYS" ],
       "INPADOC_FAMILY_COUNT" : 30,
@@ -1155,7 +1155,7 @@
       "PN" : "CN101384817B",
       "APN" : "CN200780005685.7"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/14/21/74/1/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=0a72c8ad341a62f34ba89893a9741ecb06350b63af97255dcb2c76d8813931fb",
       "AN_ST" : [ "全面保护" ],
       "INPADOC_FAMILY_COUNT" : 30,
@@ -1182,7 +1182,7 @@
       "PN" : "CN101421741A",
       "APN" : "CN200780010652.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/32/29/11/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=840b3443a7512bee1565f8dfe82e2f8723539327c558e252323eac854741bae2",
       "AN_ST" : [ "MATHWORKS" ],
       "INPADOC_FAMILY_COUNT" : 29,
@@ -1209,7 +1209,7 @@
       "PN" : "CN103229113B",
       "APN" : "CN201180056737.X"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/14/84/35/1/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=8c99f5c60429fc026fc3ab8fba26b02ef73f7fd5e08fc5f8e66e23c9a6d3d513",
       "AN_ST" : [ "代尔夫特科技大学" ],
       "INPADOC_FAMILY_COUNT" : 29,
@@ -1236,7 +1236,7 @@
       "PN" : "CN101484351B",
       "APN" : "CN200780024957.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/10/31/68/9/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=0cc6e0df797e1e095baa26d29877de08c1255a502c45dd4a10d18ec370fa0f5a",
       "AN_ST" : [ "索诺企业" ],
       "INPADOC_FAMILY_COUNT" : 28,
@@ -1263,7 +1263,7 @@
       "PN" : "CN101031689B",
       "APN" : "CN200580031407.X"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/16/57/77/1/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=9c884c2e3c2656b16498732ec825a95e1a55249d74b0e9c5e1acdfe9e1054389",
       "AN_ST" : [ "GENERAL ELECTRIC" ],
       "INPADOC_FAMILY_COUNT" : 28,
@@ -1290,7 +1290,7 @@
       "PN" : "CN101657771B",
       "APN" : "CN200880008247.0"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/12/37/42/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=97eb3c488cea9541f8c6754c8b57030d003a716b0f16d491b49847976b25a6b2",
       "AN_ST" : [ "LOCKANIS TECH" ],
       "INPADOC_FAMILY_COUNT" : 28,
@@ -1317,7 +1317,7 @@
       "PN" : "CN1237422C",
       "APN" : "CN00813847.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/56/37/44/6/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=c97c9359660997403e093e1aab463897329672f6ca27a20895dd934c7229dd24",
       "AN_ST" : [ "TK HLDG" ],
       "INPADOC_FAMILY_COUNT" : 28,
@@ -1344,7 +1344,7 @@
       "PN" : "CN105637446A",
       "APN" : "CN201480055481.4"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/20/50/22/1/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=37bb37b70936bbb638c0dba666456f11b68de6c579eac533d8738d6e56f9cc3e",
       "AN_ST" : [ "贝克船舶系统" ],
       "INPADOC_FAMILY_COUNT" : 28,
@@ -1371,7 +1371,7 @@
       "PN" : "CN102050221B",
       "APN" : "CN201010536902.9"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/57/46/07/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=1e910e92660df9c15b7e3c96a160d2643383aec6b56c309d74e44e8e5b6facaf",
       "AN_ST" : [ "IHI CORPORATION", "石川岛农技有限公司" ],
       "INPADOC_FAMILY_COUNT" : 27,
@@ -1398,7 +1398,7 @@
       "PN" : "CN105746073B",
       "APN" : "CN201610117018.9"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/44/77/04/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=3715748bb3c9884342ed25cfd5667b749735f155b1ae3a2c69cce0181bf90450",
       "AN_ST" : [ "QUALCOMM" ],
       "INPADOC_FAMILY_COUNT" : 27,
@@ -1425,7 +1425,7 @@
       "PN" : "CN104477044B",
       "APN" : "CN201410677953.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/58/49/58/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=029f163e6316c36f6f7d6ef3867c462293e781f0d83d0b4c92cf7a7ef65ceaf1",
       "AN_ST" : [ "HRL LAB" ],
       "INPADOC_FAMILY_COUNT" : 27,
@@ -1452,7 +1452,7 @@
       "PN" : "CN105849582B",
       "APN" : "CN201480065367.X"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/19/68/84/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=1a1f33c13db36881e6dd0627b2c4ac3573c0ef28ff67fadd55104962324e6f9f",
       "AN_ST" : [ "天帆两合" ],
       "INPADOC_FAMILY_COUNT" : 27,
@@ -1479,7 +1479,7 @@
       "PN" : "CN1968848B",
       "APN" : "CN200580020231.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/10/03/66/45/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=9c5c2740ad52b4bf26e00265b53adfe146f425e398760f61bc0e801704b09252",
       "AN_ST" : [ "R & D IND" ],
       "INPADOC_FAMILY_COUNT" : 27,
@@ -1506,7 +1506,7 @@
       "PN" : "CN100366452C",
       "APN" : "CN200480010812.9"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/41/33/47/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=650547ca40979fea72fec23c8f536cb6e6bf509bb2f5c202a0a18a3ac68a71f6",
       "AN_ST" : [ "格瑞股份" ],
       "INPADOC_FAMILY_COUNT" : 26,
@@ -1533,7 +1533,7 @@
       "PN" : "CN104133473A",
       "APN" : "CN201410215842.9"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/12/71/56/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=2fcd1c2be22451d030dd093ac6522f1f9f4fe1a8ca22bd1d92f8efbcaaa5952d",
       "AN_ST" : [ "SONY" ],
       "INPADOC_FAMILY_COUNT" : 26,
@@ -1560,7 +1560,7 @@
       "PN" : "CN1271564C",
       "APN" : "CN02801063.9"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/27/00/53/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=14ad11dbaa809202e8807e0f0ff8999b2eabdf7287664a9516710175530f73f2",
       "AN_ST" : [ "克诺尔布里姆斯轨道车辆系统" ],
       "INPADOC_FAMILY_COUNT" : 26,
@@ -1587,7 +1587,7 @@
       "PN" : "CN102700533B",
       "APN" : "CN201210178354.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/18/07/66/6/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=2873e82684ab2ae0c11067aaf6aca887d05119289d0103634f9698c2b8d6c55e",
       "AN_ST" : [ "MICRON TECHNOLOGY" ],
       "INPADOC_FAMILY_COUNT" : 26,
@@ -1614,7 +1614,7 @@
       "PN" : "CN101807666B",
       "APN" : "CN201010136481.0"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/56/83/01/7/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=88a2a82222874c5dbb7b6212609134671e3d82575db98f176fae4bf0d1d1f598",
       "AN_ST" : [ "JAGUAR LAND ROVER" ],
       "INPADOC_FAMILY_COUNT" : 25,
@@ -1641,7 +1641,7 @@
       "PN" : "CN105683017A",
       "APN" : "CN201480058424.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/15/28/53/9/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=9dd8ac167cb0f25df9df74f87343ee13170f25471d06eec4fe165323b89fac8e",
       "AN_ST" : [ "莫戈" ],
       "INPADOC_FAMILY_COUNT" : 25,
@@ -1668,7 +1668,7 @@
       "PN" : "CN101528539B",
       "APN" : "CN200780039192.5"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/47/69/65/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10799&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=005537783d7833c4dbb6e8cab57e27a9d5d402a74ec65a354368bea2fc90a71a",
       "AN_ST" : [ "TOYOTA" ],
       "INPADOC_FAMILY_COUNT" : 25,
@@ -1695,7 +1695,7 @@
       "PN" : "CN104769655B",
       "APN" : "CN201280076906.0"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/32/28/47/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=458c8e7d0fc4acfe1d9867d5f1b87f79970aec9d8973b6b1716e3fee0f11b6f7",
       "AN_ST" : [ "FREY THILO" ],
       "INPADOC_FAMILY_COUNT" : 25,
@@ -1722,7 +1722,7 @@
       "PN" : "CN103228478B",
       "APN" : "CN201180051687.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/13/25/31/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=5023614af42214ea9f1e4ee996f9161c261f6194985cfefa1c49aa768e5a7564",
       "AN_ST" : [ "克诺尔布里姆斯轨道车辆系统" ],
       "INPADOC_FAMILY_COUNT" : 24,
@@ -1749,7 +1749,7 @@
       "PN" : "CN1325313C",
       "APN" : "CN99812490.7"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/11/90/34/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=8d7c8da16b80ba42ba69712f45959bf761d483c97a0f35070ce77702d4ea38e3",
       "AN_ST" : [ "汉斯J伯恩" ],
       "INPADOC_FAMILY_COUNT" : 24,
@@ -1776,7 +1776,7 @@
       "PN" : "CN1190345C",
       "APN" : "CN02105234.4"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/37/96/91/7/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=ee340e41cceb1f7de1aeb880e14aec378a9ff5fbfaa9c91ea98eec9cd3bcc9ce",
       "AN_ST" : [ "吉埃罗" ],
       "INPADOC_FAMILY_COUNT" : 24,
@@ -1803,7 +1803,7 @@
       "PN" : "CN103796917B",
       "APN" : "CN201280045400.3"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/U/20/44/15/68/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=fd737581cb20b9b5c834206c991c0ceb90f3a29ea29c6a6f657cdb25177e8258",
       "AN_ST" : [ "FLIR SYSTEMS" ],
       "INPADOC_FAMILY_COUNT" : 24,
@@ -1830,7 +1830,7 @@
       "PN" : "CN204415685U",
       "APN" : "CN201190001029.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/29/15/65/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=342918b7f66b10dd931fcb83c3500afcbf8a2e2d19e00370ebde27e35944d1bf",
       "AN_ST" : [ "BOEING" ],
       "INPADOC_FAMILY_COUNT" : 24,
@@ -1857,7 +1857,7 @@
       "PN" : "CN102915652B",
       "APN" : "CN201210273405.3"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/21/59/45/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=0044c7f3b1b0dc2033247a4e90a43a8a006c8b715d1ef830b477c036d205892a",
       "AN_ST" : [ "贝斯洛德能源" ],
       "INPADOC_FAMILY_COUNT" : 23,
@@ -1884,7 +1884,7 @@
       "PN" : "CN102159458B",
       "APN" : "CN200980136680.7"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/76/57/26/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=20cc842989ee92efbb62dee1c8c3691dc1fb606c43626ced5cb8dd76ea6c3b71",
       "AN_ST" : [ "北京深鉴科技有限公司" ],
       "INPADOC_FAMILY_COUNT" : 23,
@@ -1911,7 +1911,7 @@
       "PN" : "CN107657263A",
       "APN" : "CN201710248883.1"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/76/88/85/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=46b44b957b7de83b1041df79ac381d96da97abee1a045d6150ea39d9311ef7ac",
       "AN_ST" : [ "北京深鉴科技有限公司" ],
       "INPADOC_FAMILY_COUNT" : 23,
@@ -1938,7 +1938,7 @@
       "PN" : "CN107688855A",
       "APN" : "CN201610698184.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/18/90/00/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=4fbf7d4514ba55666c1f6a9cc016b211514680581a2b6bfb45e842ce5213a4d0",
       "AN_ST" : [ "威廉B普里斯特" ],
       "INPADOC_FAMILY_COUNT" : 22,
@@ -1965,7 +1965,7 @@
       "PN" : "CN1890003A",
       "APN" : "CN200480036812.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/42/83/33/1/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=2da640a1bfa267a100f6f1b638833732f35832810221d78c461cc37626bc749e",
       "AN_ST" : [ "QUALCOMM" ],
       "INPADOC_FAMILY_COUNT" : 22,
@@ -1992,7 +1992,7 @@
       "PN" : "CN104283331B",
       "APN" : "CN201410472151.7"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/24/52/47/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=912b8c39ada4773ecbc370eef9355cab9acd02de6112ecd8e7198a82f0e6a6be",
       "AN_ST" : [ "WOODWARD MPC" ],
       "INPADOC_FAMILY_COUNT" : 22,
@@ -2019,7 +2019,7 @@
       "PN" : "CN102452478B",
       "APN" : "CN201110322403.4"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/40/77/60/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=dc093dc4d0022c42f49256c035a3a9bc3d54f6e95da942ecdcadbb2ab966a0b9",
       "AN_ST" : [ "南京原觉信息科技有限公司" ],
       "INPADOC_FAMILY_COUNT" : 22,
@@ -2046,7 +2046,7 @@
       "PN" : "CN104077603B",
       "APN" : "CN201410333183.9"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/45/03/60/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=3c773cdbab5066370dd573f76e24e175a4f50028da85346667a46079981dd2a8",
       "AN_ST" : [ "SONY" ],
       "INPADOC_FAMILY_COUNT" : 22,
@@ -2073,7 +2073,7 @@
       "PN" : "CN104503608B",
       "APN" : "CN201410693572.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/15/71/74/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=7551be3ca3f97115cc7be103bd8a0c414c16a65586cbab9c6e47fd837b78db20",
       "AN_ST" : [ "阿丽娜马基股份" ],
       "INPADOC_FAMILY_COUNT" : 22,
@@ -2100,7 +2100,7 @@
       "PN" : "CN1571745B",
       "APN" : "CN02820497.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/24/21/63/9/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=c2b75b5e9a4224cf15f25d1b0c8ca4b73d878be70f61d38825c4c4bd851759c5",
       "AN_ST" : [ "SAINT-GOBAIN" ],
       "INPADOC_FAMILY_COUNT" : 21,
@@ -2127,7 +2127,7 @@
       "PN" : "CN102421639B",
       "APN" : "CN201080018030.5"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/11/03/91/0/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=bf96c55aa69fbaba23fbc7a25f860f03c4a57275bc1b16d0a411c7baddbe1481",
       "AN_ST" : [ "LEICA GEOSYSTEMS" ],
       "INPADOC_FAMILY_COUNT" : 21,
@@ -2154,7 +2154,7 @@
       "PN" : "CN1103910C",
       "APN" : "CN98800118.7"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/46/04/07/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=c9edca91f77734b2085e3684dcad26e347983914450872b8770984841b34e64b",
       "AN_ST" : [ "QUALCOMM" ],
       "INPADOC_FAMILY_COUNT" : 21,
@@ -2181,7 +2181,7 @@
       "PN" : "CN104604074B",
       "APN" : "CN201380046973.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/13/36/39/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=e6d361ebcfad62eee2d5d7dbf6f9a6cff6756fc473e229b4d33a581baf1e68b3",
       "AN_ST" : [ "MARINE CYBERNETICS" ],
       "INPADOC_FAMILY_COUNT" : 21,
@@ -2208,7 +2208,7 @@
       "PN" : "CN101336398B",
       "APN" : "CN200680051804.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/20/37/45/8/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=1691f3cabecf67fda7ba957b617fee520852680b6de210ba18ddff177d3c3d1b",
       "AN_ST" : [ "TELE ATLAS NORTH AMERICA" ],
       "INPADOC_FAMILY_COUNT" : 20,
@@ -2235,7 +2235,7 @@
       "PN" : "CN102037458B",
       "APN" : "CN200980118040.3"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/14/84/35/3/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=8d3967614f17119e5e421dcfb1ad872d6f0f0542a604338995a28d1add21136c",
       "AN_ST" : [ "代尔夫特科技大学" ],
       "INPADOC_FAMILY_COUNT" : 20,
@@ -2262,7 +2262,7 @@
       "PN" : "CN101484353B",
       "APN" : "CN200780024988.3"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/15/12/53/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=abd392c335e4da68b38220d4543733eddc48818cd9809cb45c8bd998bac43921",
       "AN_ST" : [ "阿斯蓬电子设备" ],
       "INPADOC_FAMILY_COUNT" : 20,
@@ -2289,7 +2289,7 @@
       "PN" : "CN101512534B",
       "APN" : "CN200780032967.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/35/62/74/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=a82eddfa89cf5ecab6b0be80c1461ccd59cad36818e5871e059d4e796c74e3a3",
       "AN_ST" : [ "科尼全球" ],
       "INPADOC_FAMILY_COUNT" : 20,
@@ -2316,7 +2316,7 @@
       "PN" : "CN103562745B",
       "APN" : "CN201280019573.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/72/53/44/6/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=792cadc1e143872317f1461778d7efccc1c3f60b049daeeb13264c523c39143a",
       "AN_ST" : [ "QUALCOMM" ],
       "INPADOC_FAMILY_COUNT" : 19,
@@ -2343,7 +2343,7 @@
       "PN" : "CN107253446A",
       "APN" : "CN201710418080.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/13/84/97/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=c3d0f603fe259d72749e47d4fb84cda7e329220048ae30d94b46b79890d1aada",
       "AN_ST" : [ "AIRBUS FRANCE" ],
       "INPADOC_FAMILY_COUNT" : 19,
@@ -2370,7 +2370,7 @@
       "PN" : "CN101384972B",
       "APN" : "CN200780005273.3"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/78/50/89/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=d0695231f77fa364cdd65d962ef17118e6bf4daba550a46481ecde30456ea4b4",
       "AN_ST" : [ "优步技术" ],
       "INPADOC_FAMILY_COUNT" : 19,
@@ -2397,7 +2397,7 @@
       "PN" : "CN107850895A",
       "APN" : "CN201680041378.3"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/12/92/57/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=73e3649ff4012d4effe0f3bf9900941364935c8eeecaf617e22497fcbb1ef56a",
       "AN_ST" : [ "JOHN DEERE" ],
       "INPADOC_FAMILY_COUNT" : 19,
@@ -2424,7 +2424,7 @@
       "PN" : "CN101292572B",
       "APN" : "CN200680039149.4"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/52/22/80/5/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=16c0ee4b7b6eb050347147219ee12c787e386c9d21ac008c7c94d427c8c7656e",
       "AN_ST" : [ "阿斯潘航空电子" ],
       "INPADOC_FAMILY_COUNT" : 18,
@@ -2451,7 +2451,7 @@
       "PN" : "CN105222805A",
       "APN" : "CN201510612227.6"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/10/05/92/35/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=2018626a1760ab6c2e2d0b41ee8f082e3c45a56de4903b76bf85527451976956",
       "AN_ST" : [ "AIRBUS FRANCE" ],
       "INPADOC_FAMILY_COUNT" : 19,
@@ -2478,7 +2478,7 @@
       "PN" : "CN100592352C",
       "APN" : "CN200680021431.X"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/21/05/35/7/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=f6db6b82d24baf70e7d08e7f590a569a45d448ce298181e3382c9b4a3ca7f967",
       "AN_ST" : [ "GILO IND" ],
       "INPADOC_FAMILY_COUNT" : 19,
@@ -2505,7 +2505,7 @@
       "PN" : "CN102105357B",
       "APN" : "CN200980128830.X"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/18/15/64/6/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=ec7df9eb9478e79ca743ecdab547ae1e43c2e0f7e969d3031b9b2ee4130a3187",
       "AN_ST" : [ "马里昂超潜水动力艇设计有限责任" ],
       "INPADOC_FAMILY_COUNT" : 19,
@@ -2532,7 +2532,7 @@
       "PN" : "CN101815646B",
       "APN" : "CN200780100518.0"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/31/53/37/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=00e5e1d51e7d4e3697fae3f8a1ffead83a2b46acf2efbefed560bc3894807291",
       "AN_ST" : [ "SANOFI AVENTIS DEUTSCHLAND" ],
       "INPADOC_FAMILY_COUNT" : 19,
@@ -2559,7 +2559,7 @@
       "PN" : "CN103153372B",
       "APN" : "CN201180049816.8"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/10/04/31/87/6/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=eebfab81fbed89e31b6b9faae65e1b06e4c64f97b9d9cfd4e0f9877125420b40",
       "AN_ST" : [ "TOYOTA" ],
       "INPADOC_FAMILY_COUNT" : 19,
@@ -2586,7 +2586,7 @@
       "PN" : "CN100431876C",
       "APN" : "CN200580001768.X"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/A/10/64/06/30/2/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=bb32d31e3b0246c4899b92003f44ecaba11b2926f5bac4c294ba2fbb418b661a",
       "AN_ST" : [ "YAMAHA MOTOR COMPANY" ],
       "INPADOC_FAMILY_COUNT" : 18,
@@ -2613,7 +2613,7 @@
       "PN" : "CN106406302A",
       "APN" : "CN201610320412.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/46/85/38/0/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=7e6de3d9732cda47286fbac566198f8a19cdc10c61932c4f6894b97085340826",
       "AN_ST" : [ "NXT ENERGY SOLUTIONS" ],
       "INPADOC_FAMILY_COUNT" : 18,
@@ -2640,7 +2640,7 @@
       "PN" : "CN104685380B",
       "APN" : "CN201380039132.9"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/10/13/84/97/4/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=53536a948fa6fdf2681fcc42cc5bc62033dac84b517d49155a28c1f6d0660394",
       "AN_ST" : [ "AIRBUS FRANCE" ],
       "INPADOC_FAMILY_COUNT" : 18,
@@ -2667,7 +2667,7 @@
       "PN" : "CN101384974B",
       "APN" : "CN200780005329.5"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/C/10/05/82/98/0/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=6e8ff3ce3cb69966beafdaa83d1a21679837fefe0aa049772654a14955866b47",
       "AN_ST" : [ "OMG PLC" ],
       "INPADOC_FAMILY_COUNT" : 18,
@@ -2694,7 +2694,7 @@
       "PN" : "CN100582980C",
       "APN" : "CN200580046942.2"
     }, {
-      "FAMILY_COUNTRY" : "CN",
+      "price": 10, "FAMILY_COUNTRY" : "CN",
       "THUMB_120" : "https://image120.cdn.zhihuiya.com/CN/B/18/98/11/7/00000001_0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180523T123407Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10800&X-Amz-Credential=AKIAOSPPNKAJFNNHUJGA%2F20180523%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Signature=bfecadb623f4e839581af5f4dd79b22ef383c8ce072a2fe001d5bf32e223c5f7",
       "AN_ST" : [ "TOYOTA" ],
       "INPADOC_FAMILY_COUNT" : 18,
