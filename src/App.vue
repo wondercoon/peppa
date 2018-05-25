@@ -5,7 +5,7 @@
     </header>
     <section class="ui-container">
       <router-view :update="update">
-        
+
       </router-view>
     </section>
     <footer class="ui-footer ui-footer-btn">
@@ -32,6 +32,7 @@ export default {
   name: 'App',
   data() {
     return {
+      currentData: null,
       showMsg: false
     }
   },
@@ -42,8 +43,9 @@ export default {
     }
   },
   methods: {
-    update(v) {
+    update(v, data) {
       if (v == 'msg') {
+        this.currentData = data;
         this.showMsg = true;
       }
       if (v == 'ack') {

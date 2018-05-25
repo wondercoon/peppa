@@ -1,6 +1,6 @@
 <template>
     <ul class="ui-list ui-border-tb">
-      <li class="ui-border-t" v-for="patent in items" @click="onItemClick(patent)">
+      <li class="ui-border-t" v-for="patent in items">
         <div class="ui-avatar">
             <span style="background-image:url(http://placeholder.qiniudn.com/100x100)"></span>
         </div>
@@ -11,7 +11,7 @@
         <div class="ui-list-info">
             {{getStatus(patent)}}
         </div>
-        
+
       </li>
     </ul>
 </template>

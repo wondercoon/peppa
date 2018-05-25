@@ -39,12 +39,10 @@
 <div v-show='ok' class="ui-dialog show">
     <div class="ui-dialog-cnt">
         <div class="ui-dialog-bd">
-            <h3>下线通知</h3>
-            <p>你的账号于17:00在一台Android手机登录。如非本人操作，密码可能已泄露，建议立即冻结账号。</p>
+            <p>Success</p>
         </div>
         <div class="ui-dialog-ft">
-            <button type="button" data-role="button">退出</button>
-            <button type="button" data-role="button" class="btn-recommand">重新登录</button>
+            <button type="button" @click="gotoMe" data-role="button" class="btn-recommand">OK</button>
         </div>
     </div>
 </div>
@@ -72,17 +70,22 @@ export default {
       return _.find(this.patents, {PATENT_ID: this.$route.params.id});
     }
   },
-props: {
-    update: {
-        type: Function,
-        default: _.noop
-    }
-},
+  props: {
+      update: {
+          type: Function,
+          default: _.noop
+      }
+  },
   methods: {
+    gotoMe() {
+      this.$router.push({
+        name: 'user'
+      });
+    },
     buy() {
-        console.log(this.patent.PN, this.price, this.desc);
+        let param = _.find(this.patents, {PATENT_ID: this.$route.params.id});
         setTimeout(() => {
-            this.update('msg')
+            this.update('msg', param)
         }, 5000)
         this.ok = true;
     }

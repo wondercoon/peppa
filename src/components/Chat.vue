@@ -18,15 +18,15 @@ export default {
   },
   methods: {
     buy() {
-    //   App.buy(this.patent.PN).then(() => {
-    //     this.showAlert = false;
+      App.buy(this.$parent.currentData.PN).then(() => {
+        this.showAlert = false;
         this.$router.push({
           name: 'myOrder',
           params: {
-            id: this.patent.PATENT_ID
+            id: 111
           }
         });
-      // })
+     })
     }
   }
 }

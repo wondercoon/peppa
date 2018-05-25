@@ -1,6 +1,6 @@
 <template>
   <div>
-    <my-list :items="refinedList" :keyword="hlword" :item-click="gotoPublish"></my-list>
+    <order-list :items="[$parent.currentData]" :keyword="hlword"></order-list>
   </div>
 </template>
 
@@ -8,11 +8,11 @@
 import _ from 'lodash'
 import Vue from 'vue'
 import data from '../api/patents.json'
-import MyList from './MyList'
+import OrderList from './OrderList'
 
 export default {
-  name: 'MyPatents',
-  components: {MyList},
+  name: 'MyOrder',
+  components: {OrderList},
   data () {
     return {
       keyword: '',
@@ -24,7 +24,7 @@ export default {
     }
   },
   methods: {
-    
+
   },
   created() {
     _.filter(this.patents, {PATENT_ID: this.$route.params.id});
