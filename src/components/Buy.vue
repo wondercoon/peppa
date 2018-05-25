@@ -29,14 +29,25 @@
 
         <div class="ui-btn-wrap">
             <button class="ui-btn-lg ui-btn-primary" @click="buy">
-                确定
+                Submit
             </button>
         </div>
     </form>
 </div>
 
 
-
+<div v-show='ok' class="ui-dialog show">
+    <div class="ui-dialog-cnt">
+        <div class="ui-dialog-bd">
+            <h3>下线通知</h3>
+            <p>你的账号于17:00在一台Android手机登录。如非本人操作，密码可能已泄露，建议立即冻结账号。</p>
+        </div>
+        <div class="ui-dialog-ft">
+            <button type="button" data-role="button">退出</button>
+            <button type="button" data-role="button" class="btn-recommand">重新登录</button>
+        </div>
+    </div>
+</div>
   </div>
 </template>
 
@@ -50,7 +61,7 @@ export default {
     return {
       desc: '',
       price: 0,
-      isPublishing: false,
+      ok: false,
       showAlert: false,
       patents: data.data.patentData,
       msg: 'Welcome to Your Vue.js App'
@@ -72,13 +83,8 @@ props: {
         console.log(this.patent.PN, this.price, this.desc);
         setTimeout(() => {
             this.update('msg')
-        }, 1000)
-      App.publish(this.patent.PN, parseInt(this.price)).then(() => {
-        this.showAlert = false;
-        this.$router.push({
-          name: 'myPatents'
-        });
-      })
+        }, 5000)
+        this.ok = true;
     }
   }
 }
