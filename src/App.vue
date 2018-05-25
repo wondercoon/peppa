@@ -10,11 +10,11 @@
     </section>
     <footer class="ui-footer ui-footer-btn">
       <ul class="ui-tiled ui-border-t" style="font-size: 12px;">
-        <router-link tag="li" :to="{name: 'index'}">Market</router-link>
-        <router-link tag="li" :to="{name: 'classification'}">Classification</router-link>
-        <router-link tag="li" :to="{name: 'myPatents'}">Publish</router-link>
-        <router-link tag="li" :to="{name: 'message'}"><span :class="{'ui-reddot': showMsg}">Message</span></router-link>
-        <router-link tag="li" :to="{name: 'user'}">Me</router-link>
+        <router-link tag="li" :to="{name: 'index'}"><img height="35" src="./assets/market.png"></router-link>
+        <router-link tag="li" :to="{name: 'classification'}"><img height="35"src="./assets/class.png"></router-link>
+        <router-link tag="li" :to="{name: 'myPatents'}"><img height="35"src="./assets/pub.png"></router-link>
+        <router-link tag="li" :to="{name: 'message'}"><span :class="{'ui-reddot': showMsg}"><img height="35"src="./assets/msg.png"></span></router-link>
+        <router-link tag="li" :to="{name: 'user'}"><img height="35"src="./assets/me.png"></router-link>
       </ul>
     </footer>
   </div>
