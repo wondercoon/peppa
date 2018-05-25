@@ -10,6 +10,8 @@ import MyPatents from '@/components/MyPatents'
 import Detail from '@/components/Detail'
 import Publish from '@/components/Publish'
 import Buy from '@/components/Buy'
+import Message from '@/components/Message'
+import Chat from '@/components/Chat'
 Vue.use(Router)
 
 export default new Router({
@@ -26,6 +28,14 @@ export default new Router({
       path: '/market',
       name: 'market',
       component: PatentList
+    }, {
+      path: '/message',
+      name: 'message',
+      component: Message
+    }, {
+      path: '/chat',
+      name: 'chat',
+      component: Chat
     }, {
       path: '/patents',
       name: 'patentList',

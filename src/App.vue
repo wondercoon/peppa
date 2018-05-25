@@ -9,10 +9,11 @@
       </router-view>
     </section>
     <footer class="ui-footer ui-footer-btn">
-      <ul class="ui-tiled ui-border-t">
+      <ul class="ui-tiled ui-border-t" style="font-size: 12px;">
         <router-link tag="li" :to="{name: 'index'}">Market</router-link>
         <router-link tag="li" :to="{name: 'classification'}">Classification</router-link>
         <router-link tag="li" :to="{name: 'myPatents'}">Publish</router-link>
+        <router-link tag="li" :to="{name: 'message'}">Message</router-link>
         <router-link tag="li" :to="{name: 'user'}">Me</router-link>
       </ul>
     </footer>
