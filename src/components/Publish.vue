@@ -70,6 +70,9 @@ export default {
     publish() {
       App.publish(this.patent.PN, parseInt(this.price));
       this.showAlert = false;
+      this.$router.push({
+        name: 'myPatents'
+      });
     }
   }
 }
