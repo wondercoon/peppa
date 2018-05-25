@@ -62,10 +62,10 @@ export default {
     // App.loadSellingPatents().then((data) => {
       // console.log(data);
     let  data = [{
-        pn: 'CN102112945B',
+        pn: 'US8511565',
         price: 10
       }, {
-        pn: 'CN1444742A',
+        pn: 'US7029875',
         price: 11
       }]
 

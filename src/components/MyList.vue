@@ -9,7 +9,7 @@
             <p class="ui-nowrap" v-html="hl(patent.TITLE, keyword)"></p>
         </div>
         <div class="ui-list-info">
-            {{patent.price}}
+            {{getStatus(patent)}}
         </div>
         
       </li>
@@ -40,6 +40,13 @@ export default {
         },
         onItemClick(item) {
             this.itemClick(item);
+        },
+        getStatus(p) {
+            if (p.hasOwnProperty('sold')) {
+                return p.sold ? '已卖出' : '发布中'
+            } else {
+                return ''
+            }
         }
     }
 }
