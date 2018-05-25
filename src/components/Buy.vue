@@ -2,16 +2,6 @@
   <div>
 <div class="ui-form ui-border-t">
     <form action="">
-        <div class="ui-form-item ui-border-b">
-            <label>
-                {{ patent.PN }}
-            </label>
-        </div>
-        <div class="ui-form-item ui-border-b">
-            <label>
-                {{ patent.TITLE }}
-            </label>
-        </div>
 
         <div class="ui-form-item ui-border-b">
             <label>
@@ -89,6 +79,9 @@ export default {
         }, 5000)
         this.ok = true;
     }
+  },
+  mounted() {
+    this.price = _.find(this.patents, {PATENT_ID: this.$route.params.id}).price
   }
 }
 </script>

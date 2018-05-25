@@ -8,10 +8,10 @@
             <h4 class="ui-nowrap">{{patent.PN}}</h4>
             <p class="ui-nowrap" v-html="hl(patent.TITLE, keyword)"></p>
         </div>
-        <div class="ui-list-info">
+        <div class="ui-list-info" style="font-size: 12px;">
             {{getStatus(patent)}}
         </div>
-        
+
       </li>
     </ul>
 </template>
@@ -43,7 +43,7 @@ export default {
         },
         getStatus(p) {
             if (p.hasOwnProperty('sold')) {
-                return p.sold ? '已卖出' : '发布中'
+                return p.sold ? 'Sold' : 'Publishing'
             } else {
                 return ''
             }

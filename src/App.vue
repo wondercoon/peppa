@@ -23,10 +23,16 @@
 <script>
 const titles = {
   market: 'Market',
-  patentList: '',
+  patentList: 'Patents',
   user: 'Me',
   myPatents: 'My patents',
-  detail: ''
+  detail: '',
+  classification: 'Classification',
+  message: 'Message',
+  detail: 'View',
+  buy: 'Buy',
+  chat: 'Chat',
+  myOrder: 'My Order'
 }
 export default {
   name: 'App',
