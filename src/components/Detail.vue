@@ -1,7 +1,7 @@
 <template>
   <div>
   <img @click="gotoPatents" class="img" src="../assets/detail.png">
-    <button @click="buy" class="ui-btn ui-btn-primary">购买</button>
+    <button @click="buy" class="ui-btn ui-btn-primary">Buy</button>
   </div>
 </template>
 

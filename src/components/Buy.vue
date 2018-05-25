@@ -15,15 +15,15 @@
 
         <div class="ui-form-item ui-border-b">
             <label>
-                价格
+                Price
             </label>
-            <input v-model="price" type="text" placeholder="输入价格">
+            <input v-model="price" type="text" placeholder="Input price here">
             </a>
         </div>
 
         <section class="ui-input-wrap ui-border-t">
             <div class="ui-input ui-border-radius ui-input-text">
-                <input type="textarea" name="" v-model="desc" placeholder="输入描述">
+                <input type="textarea" name="" v-model="desc" placeholder="Input description here">
             </div>
         </section>
 

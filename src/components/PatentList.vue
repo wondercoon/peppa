@@ -3,12 +3,12 @@
     <div  class="ui-searchbar-wrap ui-border-b">
       <div @click="searchMode = !searchMode" class="ui-searchbar ui-border-radius">
         <i class="ui-icon-search"></i>
-        <div :style="{display: !searchMode ? 'block' : 'none'}" class="ui-searchbar-text">搜索</div>
+        <div :style="{display: !searchMode ? 'block' : 'none'}" class="ui-searchbar-text">Search</div>
         <div @click.stop :style="{display: searchMode ? 'block' : 'none'}" class="ui-searchbar-input">
-          <input @keypress.enter="search" v-model="keyword" type="text" placeholder="搜索" autocapitalize="off"></div>
+          <input @keypress.enter="search" v-model="keyword" type="text" placeholder="Search" autocapitalize="off"></div>
         <i class="ui-icon-close"></i>
       </div>
-      <button class="ui-searchbar-cancel">取消</button>
+      <button class="ui-searchbar-cancel">Cancel</button>
     </div>
     <list :items="refinedList" :keyword="hlword" :item-click="gotoDetail"></list>
   </div>
