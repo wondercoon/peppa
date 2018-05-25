@@ -1,14 +1,17 @@
 <template>
   <div>
+  
     <ul class="ui-list ui-list-single ui-list-link ui-border-tb">
       <li class="ui-border-t">
-          <div class="ui-avatar">
-              <span style="background-image:url(http://placeholder.qiniudn.com/100x100)"></span>
-          </div>
-          <h4 class="ui-nowrap">xxx</h4>
-          <h5 class="ui-nowrap">wangmenghuan@patsnap.com</h5>
-          
+        <div class="ui-avatar">
+            <span style="background-image:url(http://placeholder.qiniudn.com/100x100)"></span>
+        </div>
+        <div class="ui-list-info">
+            <h4 class="ui-nowrap">xxx</h4>
+            <h5 class="ui-nowrap">xxxx@patsnap.com</h5>
+        </div>
       </li>
+
       <router-link tag="li" :to="{name: 'myPatents'}" class="ui-border-t">
           <div class="ui-list-info">
               <h4 class="ui-nowrap">我的专利</h4>

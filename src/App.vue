@@ -11,7 +11,7 @@
     <footer class="ui-footer ui-footer-btn">
       <ul class="ui-tiled ui-border-t">
         <router-link tag="li" :to="{name: 'patentList'}">市场</router-link>
-        <router-link tag="li" :to="{name: 'index'}">发布</router-link>
+        <router-link tag="li" :to="{name: 'myPatents'}">发布</router-link>
 
         <router-link tag="li" :to="{name: 'user'}">个人</router-link>
         <router-link tag="li" :to="{name: 'wallet'}">钱包</router-link>

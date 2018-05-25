@@ -28,6 +28,12 @@
             </a>
         </div>
 
+        <section class="ui-input-wrap ui-border-t">
+            <div class="ui-input ui-border-radius ui-input-text">
+                <input type="textarea" name="" value="" placeholder="输入要求">
+            </div>
+        </section>
+
         <div class="ui-btn-wrap">
             <button class="ui-btn-lg ui-btn-primary" @click="showAlert = true">
                 确定

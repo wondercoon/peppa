@@ -1,6 +1,14 @@
 <template>
   <div>
-    wallet  余额{{money}}
+    <ul class="ui-list ui-list-single ui-border-tb">
+        <li class="ui-border-t">
+            <div class="ui-list-info">
+                <h4 class="ui-nowrap">余额</h4>
+                <div class="ui-txt-info">{{money}}</div>
+            </div>
+        </li>
+        
+    </ul>
   </div>
 </template>
 
