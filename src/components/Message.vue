@@ -13,12 +13,21 @@
 
 <script>
 export default {
+  props: {
+    update: {
+      type: Function,
+      default: _.noop
+    }
+  },
   methods: {
     gotoChat() {
       this.$router.push({
         name: 'chat'
       });
     }
+  },
+  mounted() {
+    this.update('ack');
   }
 }
 </script>

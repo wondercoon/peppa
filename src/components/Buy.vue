@@ -61,9 +61,18 @@ export default {
       return _.find(this.patents, {PATENT_ID: this.$route.params.id});
     }
   },
+props: {
+    update: {
+        type: Function,
+        default: _.noop
+    }
+},
   methods: {
     buy() {
         console.log(this.patent.PN, this.price, this.desc);
+        setTimeout(() => {
+            this.update('msg')
+        }, 1000)
       App.publish(this.patent.PN, parseInt(this.price)).then(() => {
         this.showAlert = false;
         this.$router.push({

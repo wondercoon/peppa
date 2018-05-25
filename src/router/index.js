@@ -7,6 +7,7 @@ import PatentList from '@/components/PatentList'
 import Peppa from '@/components/Peppa'
 import User from '@/components/User'
 import MyPatents from '@/components/MyPatents'
+import MyOrder from '@/components/MyOrder'
 import Detail from '@/components/Detail'
 import Publish from '@/components/Publish'
 import Buy from '@/components/Buy'
@@ -44,6 +45,10 @@ export default new Router({
       path: '/my',
       name: 'user',
       component: User
+    }, {
+      path: '/my/Order/:id',
+      name: 'myOrder',
+      component: MyOrder
     }, {
       path: '/my/patents',
       name: 'myPatents',
