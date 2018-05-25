@@ -8,6 +8,7 @@ import MyPatents from '@/components/MyPatents'
 import Wallet from '@/components/Wallet'
 import Detail from '@/components/Detail'
 import Publish from '@/components/Publish'
+import Buy from '@/components/Buy'
 Vue.use(Router)
 
 export default new Router({
@@ -44,6 +45,10 @@ export default new Router({
       path: '/publish/:id',
       name: 'publish',
       component: Publish
+    }, {
+      path: '/buy/:id',
+      name: 'buy',
+      component: Buy
     }
   ]
 })

@@ -1,12 +1,5 @@
 <template>
   <div>
-<div v-if="isPublishing" class="ui-tooltips ui-tooltips-guide">
-    <div class="ui-tooltips-cnt ui-tooltips-cnt-link ui-border-b">
-        <i class="ui-icon-talk"></i>
-    </div>
-</div>
-
-
 <div class="ui-form ui-border-t">
     <form action="">
         <div class="ui-form-item ui-border-b">
@@ -30,17 +23,19 @@
 
         <section class="ui-input-wrap ui-border-t">
             <div class="ui-input ui-border-radius ui-input-text">
-                <input type="textarea" name="" v-model="desc" placeholder="输入需求">
+                <input type="textarea" name="" v-model="desc" placeholder="输入描述">
             </div>
         </section>
 
         <div class="ui-btn-wrap">
-            <button class="ui-btn-lg ui-btn-primary" @click="publish">
+            <button class="ui-btn-lg ui-btn-primary" @click="buy">
                 确定
             </button>
         </div>
     </form>
 </div>
+
+
 
   </div>
 </template>
@@ -50,7 +45,7 @@ import _ from 'lodash'
 import data from '../api/patents.json'
 
 export default {
-  name: 'Publish',
+  name: 'Buy',
   data () {
     return {
       desc: '',
@@ -67,8 +62,8 @@ export default {
     }
   },
   methods: {
-    publish() {
-      this.isPublishing = true
+    buy() {
+        console.log(this.patent.PN, this.price, this.desc);
       App.publish(this.patent.PN, parseInt(this.price)).then(() => {
         this.showAlert = false;
         this.$router.push({

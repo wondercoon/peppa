@@ -1,17 +1,18 @@
 <template>
   <div>
-    <list :items="refinedList" :keyword="hlword" :item-click="gotoPublish"></list>
+    <my-list :items="refinedList" :keyword="hlword" :item-click="gotoPublish"></my-list>
   </div>
 </template>
 
 <script>
 import _ from 'lodash'
+import Vue from 'vue'
 import data from '../api/patents.json'
-import List from './List'
+import MyList from './MyList'
 
 export default {
   name: 'MyPatents',
-  components: {List},
+  components: {MyList},
   data () {
     return {
       keyword: '',
@@ -32,7 +33,30 @@ export default {
         }
       });
     }
-  }
+  },
+  created() {
+    // App.loadSellingPatents().then((data) => {
+      // console.log(data);
+    let  data = [{
+        pn: 'CN102112945B',
+        price: 10,
+        sold: true
+      }, {
+        pn: 'CN1444742A',
+        price: 11,
+        sold: false
+      }]
+
+      _.map(data, (st) => {
+        var id = _.findIndex(this.patents, {PN: st.pn})
+        if (id >= 0) {
+          Vue.set(this.patents[id], 'price', st.price)
+          Vue.set(this.patents[id], 'sold', st.sold)
+        }
+      });
+      this.refinedList = this.patents;
+    // });
+    }
 }
 </script>
 
