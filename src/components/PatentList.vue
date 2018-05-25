@@ -46,7 +46,7 @@ export default {
     search() {
       this.hlword = this.keyword
       this.refinedList = _.filter(this.patents, (patent) => {
-        return _.includes(patent.TITLE, this.keyword)
+        return _.includes(patent.TITLE, this.keyword) && patent.hasOwnProperty('price')
       });
     },
     gotoDetail(item) {
