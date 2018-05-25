@@ -34,7 +34,7 @@ App = {
     publish: function (pn, price) {
         var patentSellInstance;
 
-        App.contracts.PatentSell.deployed().then(function (instance) {
+        return App.contracts.PatentSell.deployed().then(function (instance) {
             patentSellInstance = instance;
 
             // return patentSellInstance.publish(web3.fromAscii(pn), web3.fromDecimal(price));
@@ -48,7 +48,7 @@ App = {
     loadSellingPatents: function () {
         var patentSellInstance;
 
-        App.contracts.PatentSell.deployed().then(function (instance) {
+        return App.contracts.PatentSell.deployed().then(function (instance) {
             patentSellInstance = instance;
 
             return patentSellInstance.getAllSellingPatents.call();
