@@ -12,6 +12,12 @@
         </div>
       </li>
 
+      <li class="ui-border-t">
+          <div class="ui-list-info">
+              <h4 class="ui-nowrap">My Wallet</h4>
+              <div class="ui-txt-info">{{ money }}</div>
+          </div>
+      </li>
       <router-link tag="li" :to="{name: 'myPatents'}" class="ui-border-t">
           <div class="ui-list-info">
               <h4 class="ui-nowrap">我的专利</h4>
@@ -52,14 +58,17 @@
 </template>
 
 <script>
-import data from '../api/patents.json'
-
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      money: 0
     }
+  },
+  created() {
+    App.getBalance().then((money) => {
+      this.money = money
+    });
   }
 }
 </script>
