@@ -37,7 +37,7 @@ App = {
     return App.contracts.PatentSell.deployed().then(function (instance) {
       patentSellInstance = instance;
 
-      return patentSellInstance.publish(web3.fromAscii(pn), web3.fromDecimal(price), web3.fromAscii(new Date().getTime() + ""));
+      return patentSellInstance.publish(web3.fromUtf8(pn), web3.fromDecimal(price), web3.fromUtf8(new Date().getTime() + ""));
     }).catch(function (err) {
       console.log(err.message);
     });
@@ -53,9 +53,9 @@ App = {
       var patents = [];
       for (var i in sellingPatents[0]) {
         patents.push({
-          pn: App.toString(sellingPatents[0][i]),
-          price: App.toNum(sellingPatents[1][i]),
-          pub_time: App.toString(sellingPatents[2][i])
+          pn: toString(sellingPatents[0][i]),
+          price: toNum(sellingPatents[1][i]),
+          pub_time: toString(sellingPatents[2][i])
         });
       }
       console.log(patents);
@@ -63,12 +63,6 @@ App = {
     }).catch(function (err) {
       console.log(err.message);
     });
-  },
-  toString: function(data) {
-    return web3.toUtf8(data);
-  },
-  toNum: function(data) {
-    return web3.toDecimal(data);
   },
   loadMyPatents: function () {
     var patentSellInstance;
@@ -81,10 +75,10 @@ App = {
       var patents = [];
       for (var i in sellingPatents[0]) {
         patents.push({
-          pn: App.toString(sellingPatents[0][i].replace(/0+$/g, '')),
-          price: App.toNum(sellingPatents[1][i]),
+          pn: toString(sellingPatents[0][i].replace(/0+$/g, '')),
+          price: toNum(sellingPatents[1][i]),
           sold: sellingPatents[2][i],
-          pub_time: App.toString(sellingPatents[3][i])
+          pub_time: toString(sellingPatents[3][i])
         });
       }
       console.log(patents);
@@ -101,8 +95,8 @@ App = {
 
       return patentSellInstance.getBalance.call();
     }).then(function (balance) {
-      console.log(App.toNum(balance));
-      return App.toNum(balance);
+      console.log(toNum(balance));
+      return toNum(balance);
     }).catch(function (err) {
       console.log(err.message);
     });
@@ -117,6 +111,15 @@ App = {
     }).catch(function (err) {
       console.log(err.message);
     });
+  },
+  getBlocks: function() {
+      web3.eth.getBlockNumber(function (err, bn) {
+          for (var bi = bn - 1; bi >= 0; bi--) {
+              web3.eth.getBlock(bi, function(err, b) {
+                  console.log(b);
+              });
+          }
+      });
   }
 };
 
