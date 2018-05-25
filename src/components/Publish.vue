@@ -9,34 +9,24 @@
 
 <div class="ui-form ui-border-t">
     <form action="">
-        <div class="ui-form-item ui-border-b">
-            <label>
-                {{ patent.PN }}
-            </label>
-        </div>
-        <div class="ui-form-item ui-border-b">
-            <label>
-                {{ patent.TITLE }}
-            </label>
-        </div>
 
         <div class="ui-form-item ui-border-b">
             <label>
-                价格
+                Price
             </label>
-            <input v-model="price" type="text" placeholder="输入价格">
+            <input v-model="price" type="text" placeholder="Price">
             </a>
         </div>
 
         <section class="ui-input-wrap ui-border-t">
             <div class="ui-input ui-border-radius ui-input-text">
-                <input type="textarea" name="" v-model="desc" placeholder="输入需求">
+                <input type="textarea" name="" v-model="desc" placeholder="Requirement">
             </div>
         </section>
 
         <div class="ui-btn-wrap">
             <button class="ui-btn-lg ui-btn-primary" @click="publish">
-                确定
+                Publish
             </button>
         </div>
     </form>
@@ -54,7 +44,7 @@ export default {
   data () {
     return {
       desc: '',
-      price: 0,
+      price: '',
       isPublishing: false,
       showAlert: false,
       patents: data.data.patentData,
