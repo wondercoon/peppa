@@ -12,7 +12,7 @@
                 {{ patent.TITLE }}
             </label>
         </div>
-        
+
         <div class="ui-form-item ui-border-b">
             <label>
                 价格
@@ -39,11 +39,11 @@
             </div>
             <div class="ui-dialog-ft">
                 <button @click="showAlert = false" type="button" data-role="button">取消</button>
-                <button @click="buy" type="button" data-role="button" class="btn-recommand">发布</button>
+                <button @click="publish" type="button" data-role="button" class="btn-recommand">发布</button>
             </div>
         </div>
     </div>
-    
+
   </div>
 </template>
 
@@ -67,9 +67,9 @@ export default {
     }
   },
   methods: {
-    buy() {
-      
-      alert(this.price + '--' + this.patent.PN);
+    publish() {
+      App.publish(this.patent.PN, parseInt(this.price));
+      this.showAlert = false;
     }
   }
 }

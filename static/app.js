@@ -12,7 +12,7 @@ App = {
             App.web3Provider = web3.currentProvider;
         } else {
             // If no injected web3 instance is detected, fall back to Ganache
-            App.web3Provider = new Web3.providers.HttpProvider('http://172.20.10.2:7545');
+            App.web3Provider = new Web3.providers.HttpProvider('http://127.0.0.1:7545');
         }
         web3 = new Web3(App.web3Provider);
 
@@ -20,7 +20,7 @@ App = {
     },
 
     initContract: function () {
-        $.getJSON('PatentSell.json', function (data) {
+        $.getJSON('static/PatentSell.json', function (data) {
             // Get the necessary contract artifact file and instantiate it with truffle-contract
             var PatentSellArtifact = data;
             App.contracts.PatentSell = TruffleContract(PatentSellArtifact);
@@ -39,8 +39,8 @@ App = {
 
             // return patentSellInstance.publish(web3.fromAscii(pn), web3.fromDecimal(price));
             return patentSellInstance.publish(web3.fromAscii(pn), web3.fromDecimal(price));
-        }).then(function (sellingPatents) {
-            console.log(sellingPatents);
+        }).then(function () {
+            App.loadSellingPatents();
         }).catch(function (err) {
             console.log(err.message);
         });
@@ -53,11 +53,14 @@ App = {
 
             return patentSellInstance.getAllSellingPatents.call();
         }).then(function (sellingPatents) {
-            App.data = sellingPatents;
-            console.log(sellingPatents);
+            var patents = [];
             for (var i in sellingPatents[0]) {
-                console.log(web3.toAscii(sellingPatents[0][i].replace(/0+$/g, '')) + " -> " + web3.toDecimal(sellingPatents[1][i]));
+              patents.push({
+                pn:  web3.toAscii(sellingPatents[0][i].replace(/0+$/g, '')),
+                price: web3.toDecimal(sellingPatents[1][i])
+              });
             }
+            console.log(patents);
         }).catch(function (err) {
             console.log(err.message);
         });
