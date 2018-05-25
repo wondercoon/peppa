@@ -25,6 +25,7 @@
 
 <script>
 import _ from 'lodash'
+import Vue from 'vue'
 import data from '../api/patents.json'
 import List from './List'
 
@@ -56,6 +57,27 @@ export default {
         }
       });
     }
+  },
+  created() {
+    // App.loadSellingPatents().then((data) => {
+      // console.log(data);
+    let  data = [{
+        pn: 'CN102112945B',
+        price: 10
+      }, {
+        pn: 'CN1444742A',
+        price: 11
+      }]
+
+      _.map(data, (st) => {
+        var id = _.findIndex(this.patents, {PN: st.pn})
+        if (id >= 0) {
+          Vue.set(this.patents[id], 'price', st.price)
+        }
+        
+      });
+      this.refinedList = [].concat(_.filter(this.patents, (p) => p.hasOwnProperty('price')))
+    // });
   }
 }
 </script>

@@ -1,5 +1,12 @@
 <template>
   <div>
+<div v-if="isPublishing" class="ui-tooltips ui-tooltips-guide">
+    <div class="ui-tooltips-cnt ui-tooltips-cnt-link ui-border-b">
+        <i class="ui-icon-talk"></i>
+    </div>
+</div>
+
+
 <div class="ui-form ui-border-t">
     <form action="">
         <div class="ui-form-item ui-border-b">
@@ -56,6 +63,7 @@ export default {
   data () {
     return {
       price: 0,
+      isPublishing: false,
       showAlert: false,
       patents: data.data.patentData,
       msg: 'Welcome to Your Vue.js App'
@@ -68,11 +76,13 @@ export default {
   },
   methods: {
     publish() {
-      App.publish(this.patent.PN, parseInt(this.price));
-      this.showAlert = false;
-      this.$router.push({
-        name: 'myPatents'
-      });
+      this.isPublishing = true
+      App.publish(this.patent.PN, parseInt(this.price)).then(() => {
+        this.showAlert = false;
+        this.$router.push({
+          name: 'myPatents'
+        });
+      })
     }
   }
 }

@@ -8,6 +8,7 @@
             <h4 class="ui-nowrap">{{patent.PN}}</h4>
             <p class="ui-nowrap" v-html="hl(patent.TITLE, keyword)"></p>
         </div>
+        {{patent.price}}
       </li>
     </ul>
 </template>
