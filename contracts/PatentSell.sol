@@ -130,12 +130,12 @@ contract PatentSell {
     }
 
     // get balance of current account
-    function getBalance(address addr) public view returns (uint) {
-        return balances[addr];
+    function getBalance() public view returns (uint) {
+        return balances[msg.sender];
     }
 
     // add more balance
-    function addBalance(address addr, uint amount) public {
-        balances[addr] += amount;
+    function addBalance(uint amount) public {
+        balances[msg.sender] += amount;
     }
 }

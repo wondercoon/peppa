@@ -92,6 +92,32 @@ App = {
     }).catch(function (err) {
       console.log(err.message);
     });
+  },
+  getBalance: function () {
+    var patentSellInstance;
+
+    return App.contracts.PatentSell.deployed().then(function (instance) {
+      patentSellInstance = instance;
+
+      return patentSellInstance.getBalance.call();
+    }).then(function (balance) {
+      console.log(App.toNum(balance));
+    }).catch(function (err) {
+      console.log(err.message);
+    });
+  },
+  addBalance: function (balance, callback) {
+    var patentSellInstance;
+
+    return App.contracts.PatentSell.deployed().then(function (instance) {
+      patentSellInstance = instance;
+
+      return patentSellInstance.addBalance(web3.fromDecimal(balance));
+    }).then(function () {
+      callback && callback();
+    }).catch(function (err) {
+      console.log(err.message);
+    });
   }
 };
 
