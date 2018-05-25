@@ -87,6 +87,17 @@ App = {
       console.log(err.message);
     });
   },
+  buy: function (pn) {
+    var patentSellInstance;
+
+    return App.contracts.PatentSell.deployed().then(function (instance) {
+      patentSellInstance = instance;
+
+      return patentSellInstance.buy(web3.fromUtf8(pn));
+    }).catch(function (err) {
+      console.log(err.message);
+    });
+  },
   getBalance: function () {
     var patentSellInstance;
 

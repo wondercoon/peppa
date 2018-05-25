@@ -59,25 +59,16 @@ export default {
     }
   },
   created() {
-    // App.loadSellingPatents().then((data) => {
-      // console.log(data);
-    let  data = [{
-        pn: 'US8511565',
-        price: 10
-      }, {
-        pn: 'US7029875',
-        price: 11
-      }]
-
+    App.loadSellingPatents().then((data) => {
       _.map(data, (st) => {
         var id = _.findIndex(this.patents, {PN: st.pn})
         if (id >= 0) {
           Vue.set(this.patents[id], 'price', st.price)
         }
-        
+
       });
       this.refinedList = [].concat(_.filter(this.patents, (p) => p.hasOwnProperty('price')))
-    // });
+     });
   }
 }
 </script>

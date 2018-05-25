@@ -35,18 +35,7 @@ export default {
     }
   },
   created() {
-    // App.loadSellingPatents().then((data) => {
-      // console.log(data);
-    let  data = [{
-        pn: 'US8511565',
-        price: 10,
-        sold: true
-      }, {
-        pn: 'US7029875',
-        price: 11,
-        sold: false
-      }]
-
+    App.loadMyPatents().then((data) => {
       _.map(data, (st) => {
         var id = _.findIndex(this.patents, {PN: st.pn})
         if (id >= 0) {
@@ -55,7 +44,7 @@ export default {
         }
       });
       this.refinedList = this.patents;
-    // });
+     });
     }
 }
 </script>
