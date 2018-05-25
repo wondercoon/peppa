@@ -12,7 +12,7 @@ contract PatentSell {
         bytes32 timestamp;  // publish time
     }
 
-    // event Refresh (bytes32, bytes32);
+    event Refresh (bytes32 evtType, bytes32 pn);
 
     bytes32[] public allPns;
 
@@ -36,6 +36,14 @@ contract PatentSell {
 
     // publish a patent to platform
     function publish(bytes32 pn, uint price, bytes32 timestamp) public {
+        if (patentInfos[pn].price > 0) {
+            return;
+        }
+
+        if (price <= uint(0x0)) {
+            return;
+        }
+
         // bind to current user patents
         userPatents[msg.sender].push(pn);
 
@@ -53,7 +61,7 @@ contract PatentSell {
         allPns.push(pn);
 
         // refresh pages
-        // emit Refresh("PUBLISH", pn);
+        emit Refresh("PUBLISH", pn);
     }
 
     // get all selling patents in platform
@@ -125,7 +133,7 @@ contract PatentSell {
         info.buyer = msg.sender;
 
         // refresh pages
-        // emit Refresh("BUY", pn);
+        emit Refresh("BUY", pn);
         return "SUCCESS";
     }
 

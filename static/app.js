@@ -31,15 +31,13 @@ App = {
       return App.loadSellingPatents();
     });
   },
-  publish: function (pn, price, callback) {
+  publish: function (pn, price) {
     var patentSellInstance;
 
     return App.contracts.PatentSell.deployed().then(function (instance) {
       patentSellInstance = instance;
 
       return patentSellInstance.publish(web3.fromAscii(pn), web3.fromDecimal(price), web3.fromAscii(new Date().getTime() + ""));
-    }).then(function () {
-      callback && callback();
     }).catch(function (err) {
       console.log(err.message);
     });
@@ -61,12 +59,13 @@ App = {
         });
       }
       console.log(patents);
+      return patents;
     }).catch(function (err) {
       console.log(err.message);
     });
   },
   toString: function(data) {
-    return web3.toAscii(data.replace(/0+$/g, ''));
+    return web3.toUtf8(data);
   },
   toNum: function(data) {
     return web3.toDecimal(data);
@@ -89,6 +88,7 @@ App = {
         });
       }
       console.log(patents);
+      return patents;
     }).catch(function (err) {
       console.log(err.message);
     });
@@ -102,19 +102,18 @@ App = {
       return patentSellInstance.getBalance.call();
     }).then(function (balance) {
       console.log(App.toNum(balance));
+      return App.toNum(balance);
     }).catch(function (err) {
       console.log(err.message);
     });
   },
-  addBalance: function (balance, callback) {
+  addBalance: function (balance) {
     var patentSellInstance;
 
     return App.contracts.PatentSell.deployed().then(function (instance) {
       patentSellInstance = instance;
 
       return patentSellInstance.addBalance(web3.fromDecimal(balance));
-    }).then(function () {
-      callback && callback();
     }).catch(function (err) {
       console.log(err.message);
     });
