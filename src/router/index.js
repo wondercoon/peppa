@@ -7,6 +7,7 @@ import User from '@/components/User'
 import MyPatents from '@/components/MyPatents'
 import Wallet from '@/components/Wallet'
 import Detail from '@/components/Detail'
+import Publish from '@/components/Publish'
 Vue.use(Router)
 
 export default new Router({
@@ -39,6 +40,10 @@ export default new Router({
       path: '/detail/:id',
       name: 'detail',
       component: Detail
+    }, {
+      path: '/publish/:id',
+      name: 'publish',
+      component: Publish
     }
   ]
 })

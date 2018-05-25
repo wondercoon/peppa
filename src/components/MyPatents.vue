@@ -1,6 +1,6 @@
 <template>
   <div>
-    <list :items="refinedList" :keyword="hlword"></list>
+    <list :items="refinedList" :keyword="hlword" :item-click="gotoPublish"></list>
   </div>
 </template>
 
@@ -23,6 +23,15 @@ export default {
     }
   },
   methods: {
+    gotoPublish(item) {
+      console.log(item)
+      this.$router.push({
+        name: 'publish',
+        params: {
+          id: item.PATENT_ID
+        }
+      });
+    }
   }
 }
 </script>

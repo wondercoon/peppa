@@ -1,6 +1,6 @@
 <template>
     <ul class="ui-list ui-list-link ui-border-tb">
-      <router-link tag="li" :to="{name: 'detail', params: {id: patent.PATENT_ID}}" class="ui-border-t" v-for="patent in items">
+      <li class="ui-border-t" v-for="patent in items" @click="onItemClick(patent)">
         <div class="ui-avatar">
             <span style="background-image:url(http://placeholder.qiniudn.com/100x100)"></span>
         </div>
@@ -8,7 +8,7 @@
             <h4 class="ui-nowrap">{{patent.PN}}</h4>
             <p class="ui-nowrap" v-html="hl(patent.TITLE, keyword)"></p>
         </div>
-      </router-link>
+      </li>
     </ul>
 </template>
 <script>
@@ -24,11 +24,18 @@ export default {
         keyword: {
             type: String,
             default: ''
+        },
+        itemClick: {
+            type: Function,
+            default: _.noop
         }
     },
     methods: {
         hl(val, keyword) {
             return val.replace(keyword, `<span style="color: #17c24f">${keyword}</span>`);
+        },
+        onItemClick(item) {
+            this.itemClick(item);
         }
     }
 }

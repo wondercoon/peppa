@@ -19,7 +19,7 @@
       </ul>
       <ul class="ui-slider-indicators"><li class="current">1</li><li class="">2</li><li class="">3</li></ul>
     </div>
-    <list :items="refinedList" :keyword="hlword"></list>
+    <list :items="refinedList" :keyword="hlword" :item-click="gotoDetail"></list>
   </div>
 </template>
 
@@ -46,6 +46,14 @@ export default {
       this.hlword = this.keyword
       this.refinedList = _.filter(this.patents, (patent) => {
         return _.includes(patent.TITLE, this.keyword)
+      });
+    },
+    gotoDetail(item) {
+      this.$router.push({
+        name: 'detail',
+        params: {
+          id: item.PATENT_ID
+        }
       });
     }
   }
