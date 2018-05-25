@@ -66,5 +66,6 @@ export default {
   height: 20px;
   top: 30px;
   font-size: 12px;
+  color: #e9e9e9;
 }
 </style>
