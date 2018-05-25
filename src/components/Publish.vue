@@ -68,11 +68,13 @@ export default {
   },
   methods: {
     publish() {
-      App.publish(this.patent.PN, parseInt(this.price));
-      this.showAlert = false;
-      this.$router.push({
-        name: 'myPatents'
+      var my = this;
+      App.publish(this.patent.PN, parseInt(this.price), function() {
+        my.$router.push({
+          name: 'myPatents'
+        });
       });
+      this.showAlert = false;
     }
   }
 }

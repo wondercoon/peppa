@@ -9,22 +9,10 @@ contract PatentSell {
         uint price;         // published price
         bool sold;          // sold already ?
         address buyer;      // who bought this patent
+        bytes32 timestamp;  // publish time
     }
 
-    // basic info for selling patents
-    struct SellingPatent {
-        bytes32 pn;
-        uint price;
-    }
-
-    // basic info for my patents
-    struct MyPatent {
-        bytes32 pn;
-        uint price;
-        bool sold;
-    }
-
-    event Refresh ();
+    // event Refresh (bytes32, bytes32);
 
     bytes32[] public allPns;
 
@@ -47,7 +35,7 @@ contract PatentSell {
     }
 
     // publish a patent to platform
-    function publish(bytes32 pn, uint price) public {
+    function publish(bytes32 pn, uint price, bytes32 timestamp) public {
         // bind to current user patents
         userPatents[msg.sender].push(pn);
 
@@ -57,37 +45,22 @@ contract PatentSell {
             pn : pn,
             price : price,
             sold : false,
-            buyer : 0
+            buyer : 0,
+            timestamp: timestamp
         });
 
         // add to pn list
         allPns.push(pn);
 
         // refresh pages
-//        emit Refresh();
-    }
-
-    function bytes32ToString(bytes32 x) constant returns (string) {
-        bytes memory bytesString = new bytes(32);
-        uint charCount = 0;
-        for (uint j = 0; j < 32; j++) {
-            byte char = byte(bytes32(uint(x) * 2 ** (8 * j)));
-            if (char != 0) {
-                bytesString[charCount] = char;
-                charCount++;
-            }
-        }
-        bytes memory bytesStringTrimmed = new bytes(charCount);
-        for (j = 0; j < charCount; j++) {
-            bytesStringTrimmed[j] = bytesString[j];
-        }
-        return string(bytesStringTrimmed);
+        // emit Refresh("PUBLISH", pn);
     }
 
     // get all selling patents in platform
-    function getAllSellingPatents() public view returns (bytes32[], uint[]) {
+    function getAllSellingPatents() public view returns (bytes32[], uint[], bytes32[]) {
         bytes32[] memory pns = new bytes32[](allPns.length);
         uint[] memory prices = new uint[](allPns.length);
+        bytes32[] memory timestamps = new bytes32[](allPns.length);
         uint count = 0;
         for (uint idx = 0; idx < allPns.length; idx++) {
             bytes32 pn = allPns[idx];
@@ -98,25 +71,32 @@ contract PatentSell {
 
             pns[count] = info.pn;
             prices[count] = info.price;
+            timestamps[count] = info.timestamp;
             count++;
         }
 
-        return (pns, prices);
+        return (pns, prices, timestamps);
     }
 
     // get all patents published by me
-    function getMyPatents() public returns (MyPatent[]) {
-        MyPatent[] patents;
-        for (uint idx = 0; idx < allPns.length; idx++) {
-            bytes32 pn = allPns[idx];
+    function getMyPatents() public returns (bytes32[], uint[], bool[], bytes32[]) {
+        bytes32[] storage patents = userPatents[msg.sender];
+        bytes32[] memory pns = new bytes32[](patents.length);
+        uint[] memory prices = new uint[](patents.length);
+        bool[] memory solds = new bool[](patents.length);
+        bytes32[] memory timestamps = new bytes32[](patents.length);
+
+        uint count = 0;
+        for (uint idx = 0; idx < patents.length; idx++) {
+            bytes32 pn = patents[idx];
             PatentInfo storage info = patentInfos[pn];
-            patents.push(MyPatent({
-                pn : pn,
-                sold : info.sold,
-                price : info.price
-            }));
+            pns[count] = pn;
+            prices[count] = info.price;
+            solds[count] = info.sold;
+            timestamps[count] = info.timestamp;
+            count++;
         }
-        return patents;
+        return (pns, prices, solds, timestamps);
     }
 
     // update patent price
@@ -145,7 +125,7 @@ contract PatentSell {
         info.buyer = msg.sender;
 
         // refresh pages
-        emit Refresh();
+        // emit Refresh("BUY", pn);
         return "SUCCESS";
     }
 
