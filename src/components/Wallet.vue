@@ -1,6 +1,6 @@
 <template>
   <div>
-    wallet
+    wallet  余额{{money}}
   </div>
 </template>
 
@@ -11,8 +11,13 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      money: 0
     }
+  },
+  created() {
+    App.getBalance().then((money) => {
+      this.money = money
+    });
   }
 }
 </script>
