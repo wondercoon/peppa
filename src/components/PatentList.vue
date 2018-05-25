@@ -10,15 +10,6 @@
       </div>
       <button class="ui-searchbar-cancel">取消</button>
     </div>
-
-    <div class="ui-slider">
-      <ul class="ui-slider-content" style="width: 300%; transition-property: transform; transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
-        <li class="current"><img src="../assets/ad1.png"></li>
-        <li class=""><span style="background-image:url(http://placeholder.qiniudn.com/640x200)"></span></li>
-        <li class=""><span style="background-image:url(http://placeholder.qiniudn.com/640x200)"></span></li>
-      </ul>
-      <ul class="ui-slider-indicators"><li class="current">1</li><li class="">2</li><li class="">3</li></ul>
-    </div>
     <list :items="refinedList" :keyword="hlword" :item-click="gotoDetail"></list>
   </div>
 </template>
