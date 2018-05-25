@@ -9,7 +9,6 @@
             <p class="ui-nowrap" v-html="hl(patent.TITLE, keyword)"></p>
         </div>
         <div class="ui-list-info">
-            {{getStatus(patent)}}
         </div>
 
       </li>
@@ -43,7 +42,7 @@ export default {
         },
         getStatus(p) {
             if (p.hasOwnProperty('sold')) {
-                return p.sold ? '已卖出' : '发布中'
+                return p.sold ? 'Sold' : 'Publis'
             } else {
                 return ''
             }
